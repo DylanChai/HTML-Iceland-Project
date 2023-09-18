@@ -1,0 +1,86 @@
+.container{
+    font-family: sans-serif;
+}
+
+body  {
+    background-color:  #fff;
+    margin: 5em;
+  
+}
+
+/***
+** Main Menu
+**/
+
+.main-menu {
+    list-style: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+
+.main-menu li {
+    display: inline-block;
+}
+
+
+.main-menu li a {
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #4a4b4d;
+    border-bottom: 2px solid #D0202E;
+    transition: all ease-in-out 0.2s;
+    
+}
+
+.main-menu li a:hover {
+    background-color: #D0202E;
+    color: #fff;
+}
+/***
+**Cards
+**//
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(200,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,200,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+/***
+** Home page styles
+**/
+.section-about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section-food{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #EAEAEA;
+}
+.section-staff{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+h1{
+    color: #D0202E;
+}
+h2{
+    color: #4a4b4d;
+}

@@ -1,0 +1,24 @@
+h1{
+    color: chartreuse;
+}
+
+h2{
+    color: aqua;
+}
+
+body{
+    background-image: url(Kane.jpg);
+    background-size: cover;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: azure;
+    margin: auto;
+}
+
+#circle {
+    color: chartreuse;
+    font-size: 40px;
+}
